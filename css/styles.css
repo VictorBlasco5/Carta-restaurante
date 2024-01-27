@@ -1,0 +1,19 @@
+.altura {
+
+    height: 100vh;
+}
+
+img {
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 25em;
+    width: 25em;
+}
+
+#titulo {
+    font-size: 5em;
+    color: blue;
+    text-align: center;
+}

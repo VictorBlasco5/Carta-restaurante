@@ -1,0 +1,142 @@
+.altura {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    user-select: none 
+}
+
+#tituloEntrantes {
+
+    margin: 2em;
+    text-decoration-line: underline;
+    font-size: 1.7em;
+}
+
+#tituloPrincipales {
+
+    margin: 2em;
+    text-decoration-line: underline;
+    font-size: 1.7em;
+    
+}
+
+#tituloPostres {
+
+    margin: 2em;
+    text-decoration-line: underline;
+    font-size: 1.7em;
+}
+
+.entrantes {
+    margin: 2em;
+    font-size: 1em;
+    
+}
+
+.foto {
+    height: 4em;
+    width: 4em;
+}
+
+.principales {
+    margin: 2em;
+    font-size: 1em;
+}
+
+.postres {
+    margin: 2em;
+    font-size: 1em;
+}
+
+
+/* #pulpo {
+    
+    height: 4em;
+    width: 4em;
+}
+#huevosRotos {
+    
+    height: 4em;
+    width: 4em;
+}
+
+#berenjena {
+    height: 4em;
+    width: 4em;
+}
+
+#calamar {
+    height: 4em;
+    width: 4em;
+}
+
+#tartar {
+    height: 4em;
+    width: 4em;
+}
+
+#croqueta {
+    height: 4em;
+    width: 4em;
+} */
+.foto:hover {
+    -webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-ms-transform:scale(1.5);
+-o-transform:scale(1.5);
+transform:scale(1.5);
+transition: 1s;
+
+}
+
+/* #huevosRotos:hover {
+    -webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-ms-transform:scale(1.5);
+-o-transform:scale(1.5);
+transform:scale(1.5);
+
+}
+
+#berenjena:hover {
+    -webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-ms-transform:scale(1.5);
+-o-transform:scale(1.5);
+transform:scale(1.5);
+
+}
+#calamar:hover {
+    -webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-ms-transform:scale(1.5);
+-o-transform:scale(1.5);
+transform:scale(1.5);
+
+}
+#chipiron:hover {
+    -webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-ms-transform:scale(1.5);
+-o-transform:scale(1.5);
+transform:scale(1.5);
+
+}
+#tartar:hover {
+    -webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-ms-transform:scale(1.5);
+-o-transform:scale(1.5);
+transform:scale(1.5);
+
+}
+#croqueta:hover {
+    -webkit-transform:scale(1.5);
+-moz-transform:scale(1.5);
+-ms-transform:scale(1.5);
+-o-transform:scale(1.5);
+transform:scale(1.5);
+
+} */
