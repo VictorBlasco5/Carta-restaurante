@@ -1,6 +1,5 @@
 .altura {
     height: 100vh;
-    width: 100vw;
 }
 
 body {
@@ -9,9 +8,12 @@ body {
 
 #tituloEntrantes {
 
-    margin: 2em;
+    margin: 1em;
     text-decoration-line: underline;
     font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #tituloPrincipales {
@@ -32,12 +34,11 @@ body {
 .entrantes {
     margin: 2em;
     font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     
-}
-
-.foto {
-    height: 4em;
-    width: 4em;
 }
 
 .principales {
@@ -50,37 +51,13 @@ body {
     font-size: 1em;
 }
 
-
-/* #pulpo {
+.foto {
+    height: 4em;
+    width: 4em;
+    transition: 1s;
     
-    height: 4em;
-    width: 4em;
-}
-#huevosRotos {
-    
-    height: 4em;
-    width: 4em;
 }
 
-#berenjena {
-    height: 4em;
-    width: 4em;
-}
-
-#calamar {
-    height: 4em;
-    width: 4em;
-}
-
-#tartar {
-    height: 4em;
-    width: 4em;
-}
-
-#croqueta {
-    height: 4em;
-    width: 4em;
-} */
 .foto:hover {
     -webkit-transform:scale(1.5);
 -moz-transform:scale(1.5);
@@ -88,55 +65,6 @@ body {
 -o-transform:scale(1.5);
 transform:scale(1.5);
 transition: 1s;
+border: 20%;
 
 }
-
-/* #huevosRotos:hover {
-    -webkit-transform:scale(1.5);
--moz-transform:scale(1.5);
--ms-transform:scale(1.5);
--o-transform:scale(1.5);
-transform:scale(1.5);
-
-}
-
-#berenjena:hover {
-    -webkit-transform:scale(1.5);
--moz-transform:scale(1.5);
--ms-transform:scale(1.5);
--o-transform:scale(1.5);
-transform:scale(1.5);
-
-}
-#calamar:hover {
-    -webkit-transform:scale(1.5);
--moz-transform:scale(1.5);
--ms-transform:scale(1.5);
--o-transform:scale(1.5);
-transform:scale(1.5);
-
-}
-#chipiron:hover {
-    -webkit-transform:scale(1.5);
--moz-transform:scale(1.5);
--ms-transform:scale(1.5);
--o-transform:scale(1.5);
-transform:scale(1.5);
-
-}
-#tartar:hover {
-    -webkit-transform:scale(1.5);
--moz-transform:scale(1.5);
--ms-transform:scale(1.5);
--o-transform:scale(1.5);
-transform:scale(1.5);
-
-}
-#croqueta:hover {
-    -webkit-transform:scale(1.5);
--moz-transform:scale(1.5);
--ms-transform:scale(1.5);
--o-transform:scale(1.5);
-transform:scale(1.5);
-
-} */
