@@ -22,8 +22,8 @@ body {
     font-size: 2.5em;
     font-family: fantasy;
     text-align: center;
-    
-    
+
+
 }
 
 #tituloPostres {
@@ -39,7 +39,7 @@ body {
     font-size: 1.5em;
     text-align: center;
     font-family: fantasy;
-    
+
 }
 
 .principales {
@@ -77,16 +77,18 @@ body {
     width: 4em;
     transition: 1s;
     border-radius: 20%;
-    
 }
 
 .foto:hover {
-    -webkit-transform:scale(1.5);
--moz-transform:scale(1.5);
--ms-transform:scale(1.5);
--o-transform:scale(1.5);
-transform:scale(1.5);
-transition: 1s;
-cursor: pointer;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 1s;
+    cursor: pointer;
+}
 
+.navbar {
+    font-family: fantasy;
 }

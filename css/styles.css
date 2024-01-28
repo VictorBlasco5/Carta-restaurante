@@ -1,19 +1,17 @@
 .altura {
-
     height: 100vh;
 }
 
-img {
-
-    /* display: flex;
+.carrousel-fade {
+    display: flex;
     justify-content: center;
-    align-items: center; */
-    height: 25em;
-    width: 25em;
+    align-items: center;
+    height: 15em;
+    width: 55em;
+ 
 }
-
-#titulo {
-    font-size: 5em;
-    color: blue;
-    text-align: center;
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
