@@ -3,17 +3,16 @@
 }
 
 body {
-    user-select: none 
+    user-select: none;
 }
 
 #tituloEntrantes {
 
-    margin: 1em;
+    margin: 2em;
     text-decoration-line: underline;
     font-size: 1.7em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: fantasy;
+    text-align: center;
 }
 
 #tituloPrincipales {
@@ -21,34 +20,47 @@ body {
     margin: 2em;
     text-decoration-line: underline;
     font-size: 1.7em;
+    font-family: fantasy;
+    
     
 }
 
 #tituloPostres {
 
-    margin: 2em;
+    margin: 1em;
     text-decoration-line: underline;
     font-size: 1.7em;
+    font-family: fantasy;
 }
 
 .entrantes {
-    margin: 2em;
-    font-size: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: fantasy;
     
 }
 
 .principales {
-    margin: 2em;
+    font-size: 1em;
+    
+}
+
+.carnes {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.pescados {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+.postres {
+    
     font-size: 1em;
 }
 
-.postres {
-    margin: 2em;
-    font-size: 1em;
+.precio {
+    font-size: 1.5em;
 }
 
 .foto {
@@ -65,6 +77,6 @@ body {
 -o-transform:scale(1.5);
 transform:scale(1.5);
 transition: 1s;
-border: 20%;
+cursor: pointer;
 
 }
