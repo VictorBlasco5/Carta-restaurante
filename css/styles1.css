@@ -10,7 +10,7 @@ body {
 
     margin: 2em;
     text-decoration-line: underline;
-    font-size: 1.7em;
+    font-size: 2.5em;
     font-family: fantasy;
     text-align: center;
 }
@@ -19,18 +19,20 @@ body {
 
     margin: 2em;
     text-decoration-line: underline;
-    font-size: 1.7em;
+    font-size: 2.5em;
     font-family: fantasy;
+    text-align: center;
     
     
 }
 
 #tituloPostres {
 
-    margin: 1em;
+    margin: 2em;
     text-decoration-line: underline;
-    font-size: 1.7em;
+    font-size: 2.5em;
     font-family: fantasy;
+    text-align: center;
 }
 
 .entrantes {
@@ -41,32 +43,40 @@ body {
 }
 
 .principales {
-    font-size: 1em;
-    
+    font-size: 1.5em;
+    text-align: center;
+    font-family: fantasy;
 }
 
 .carnes {
-    text-decoration: underline;
     font-size: 1.5em;
+    text-align: center;
+    font-family: fantasy;
 }
 
 .pescados {
-    text-decoration: underline;
     font-size: 1.5em;
+    text-align: center;
+    font-family: fantasy;
 }
+
 .postres {
-    
-    font-size: 1em;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: fantasy;
 }
 
 .precio {
     font-size: 1.5em;
+    text-align: center;
+    font-family: fantasy;
 }
 
 .foto {
     height: 4em;
     width: 4em;
     transition: 1s;
+    border-radius: 20%;
     
 }
 
