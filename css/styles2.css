@@ -1,0 +1,50 @@
+.altura {
+    height: 100vh;
+}
+
+.navbar {
+    font-family: fantasy;
+    position: fixed
+}
+
+.datos {
+    border-radius: 0.5em;
+    font-family: sans-serif;
+}
+.formulario {
+    font-size: 1em;
+    text-align: flex-start;
+    font-family: fantasy;
+}
+
+textarea {
+    resize: none;
+}
+
+#mapa {
+
+    padding-top: 15em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubicacion {
+    height: 100%;
+    width: 100%;
+}
+
+#reservar {
+    border-radius: 0.5em;
+}
+
+#reservar:hover {
+    background-color: rgb(180, 173, 173);
+    
+}
+
+.dropdown-item:hover {
+    background-color: rgb(236, 229, 229);
+}

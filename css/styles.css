@@ -2,16 +2,48 @@
     height: 100vh;
 }
 
-.carrousel-fade {
+.navbar {
+    font-family: fantasy;
+    position: fixed
+}
+
+.fotos {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 15em;
-    width: 55em;
+    justify-content: center;
+    height: 25em;
+    width: 35em;
+}
+
+.titulo {
+    padding: 0.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 5em;
+    color: black;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    cursor: pointer;
+
+}
+
+.angel {
+    margin: 3em;
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
  
 }
-.c {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
+
+
+
+

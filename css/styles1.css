@@ -91,4 +91,5 @@ body {
 
 .navbar {
     font-family: fantasy;
+    position: fixed
 }
