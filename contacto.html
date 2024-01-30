@@ -5,85 +5,95 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/styles.css">
-
+  <link rel="stylesheet" href="./css/styles2.css">
 
 </head>
 
 <body>
 
   <div class="container-fluid altura">
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">Inicio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index2.html">Contacto</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="./index1.html" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Carta
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./index1.html#tituloEntrantes">Entrantes</a></li>
-                <li><a class="dropdown-item" href="./index1.html#tituloPrincipales">Principales</a></li>
-                <li><a class="dropdown-item" href="./index1.html#tituloPostres">Postres</a></li>
-              </ul>
-            </li>
-          </ul>
-
-        </div>
-      </div>
-    </nav>
     <div class="row h-100">
-    
-      <div class="col-12 col-md-3 col-lg-3 bg-withe ">
-        <br>
-        <div>
-          <img src="./img/angelBlanco.jpg" class="angel" alt="logo els angels">
-        </div>
-        <div class="titulo ">Els angels</div>
-      </div>
-      <div class="col-12 col-md-9 col-lg-9 bg-withe">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index2.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./index1.html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Carta
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./index1.html#tituloEntrantes">Entrantes</a></li>
+                  <li><a class="dropdown-item" href="./index1.html#tituloPrincipales">Principales</a></li>
+                  <li><a class="dropdown-item" href="./index1.html#tituloPostres">Postres</a></li>
+                </ul>
+              </li>
+            </ul>
 
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./img/comedor.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./img/edificio.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./img/cocina.jpg" class="d-block w-100" alt="...">
-            </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
+      </nav>
 
+      <div class="col-xs-12 col-md-6 col-lg-5 bg-withe formulario">
+        <br>
+        <br>
+        <br>
+        <label>
+        <input class="datos" type="text" name="nombre" placeholder="Nombre">
+        </label>
+        <br>
+        <br>
+        <label>
+        <input class="datos" type="text" name="telefono" placeholder="Teléfono">
+        </label>
+        <br>
+        <br>
+        <label>
+        <input class="datos" type="text" name="calle" placeholder="E-mail">
+        </label>
+        <br>
+        <br>
+        <label>
+        <input class="datos" type="date" name="país" placeholder="Fecha">
+        </label>
+        <br>
+        <br>
+        <textarea class="datos" name="mensaje" cols="20" rows="3" placeholder="Peticiones..."></textarea>
+        <br>
+        <br>
+        <button id="reservar">
+          <div>Reservar</div>
+        </button>
+        <br>
+        <br>
+        <p>Els Angels  <a href="tel:627153816">627153816</a></p>
+        <p>Carrer dels Àngels, Sant Martí Vell, Girona</p>
+       
+        
       </div>
-      
-    </div>
+      <div class="col-xs-12 col-md-6 col-lg-7 bg-withe altura">
+        <iframe id="mapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d379613.201757967!2d2.5012083836269183!3d41.98464636899107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bae535e55437eb%3A0xd7bff68726be01e!2sEls%20%C3%80ngels.%20Hotel%20%26%20Restaurant.!5e0!3m2!1ses!2ses!4v1706558063211!5m2!1ses!2ses"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <!-- <div class="col-12 col-md-12 col-lg-12 bg-secundary bg-secondary">
+        Restaruante Els Angels
+      </div> -->
 
+
+    </div>
     <nav class="navbar fixed-bottom bg-light">
       <ul id="social-list" class="nav">
         <li class="nav-item">
@@ -109,11 +119,23 @@
       </ul>
     </nav>
 
+
   </div>
+
+
+
+
+
+
+
+
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>

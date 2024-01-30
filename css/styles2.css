@@ -10,10 +10,11 @@
 .datos {
     border-radius: 0.5em;
     font-family: sans-serif;
+    width: 15em;
 }
 .formulario {
     font-size: 1em;
-    text-align: initial;
+    text-align: center;
     font-family: fantasy;
 }
 
@@ -22,8 +23,8 @@ textarea {
 }
 
 #mapa {
-    height: 15em;
-    width: 15em;
+    height: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
