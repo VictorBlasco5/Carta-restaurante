@@ -7,14 +7,6 @@
     position: fixed
 }
 
-.fotos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0 auto;
-}
-
 .titulo {
     padding: 0;
     display: flex;
@@ -35,7 +27,7 @@
 }
 
 .angel {
-    margin-top: 2.3em;
+    margin-top: 2em;
     height: 5em;
     width: 5em;
     border-radius: 50%;
