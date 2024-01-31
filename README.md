@@ -19,11 +19,9 @@ Nos encontramos ante la página web de un restaurante llamado Els Angels, la cua
 - **Maps** con la **ubicación** del local.
 - **Carta** con los distintos platos ofrecidos.
 ### Implantación en vivo
-- (url pages)
+- [Web restaurante](https://victorblasco5.github.io/Carta-restaurante/)
 ### Autor
 - **Víctor Blasco** - Project Developer.
    - [GitHub](https://github.com/VictorBlasco5)
 ### Agradecimientos
 - Agradecimiento a GeeksHubs Academy por su implicación en mi aprendizaje.
-
-
